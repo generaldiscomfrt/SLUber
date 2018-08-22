@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.add-button {
+  background-color: #003DA5;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  right: 25px;
+  top:50px;
+  position: absolute;
+}
+
+hr {
+  border-width: 3px;
+}
+
+.rides {
+    background-color: #5BC2E7;
+}
+
+.update-button {
+  background-color: #003DA5;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.cancel-button {
+  background-color: #D84F4F;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  left:5px;
+}
+
+.submit-button {
+    background-color: #003DA5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-logo {
+  position: relative;
+  left:10px;
+  top:20px;
+}
+
+.modal-overlay{
+    position: absolute;
+    top:10%;
+    right:35%;
+    width: 350px;
+    max-width: 100%;
+}
+
+.modal-content{
+    max-width: 100%;
+    padding: 10px 0px 10px 10px;
+}
+
+.rides-table {
+    position: absolute;
+    padding-top: 500px;
+    width: 100%;
+}
+
+.rides-table-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rides-table-edit-cell{
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+.rides-table-header{
+    width: 100%;
+    background-color: #003DA5;
+    color:white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    white-space: nowrap;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.main-header {
+    position: static;
+    padding-bottom: 45px;
+}
+
+.table-button {
+    background-color: #003DA5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.details-table {
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    padding: 10px 10px 25px 20px;
+}
+
+.details-table-cell {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.close-button {
+    background-color: #003DA5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.delete-button {
+    background-color: #C82A2C;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+    bottom: 10px;
+}
+
+.login-content {
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.view-div {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.view-button {
+    background-color: #003DA5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
